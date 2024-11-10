@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+}
+.logo a{
+    margin-left: 40px;
+}
+.logo a img {
+    padding-top: 7px ;
+    height: 70px;
+    background-color: white ;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none ;
+    color: black;
+    padding: 20px 30px;
+}
+.navbar ul li a:hover{
+    background-color: rgb(250, 140, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+div img{
+    padding-top: 80px;
+    width: 100%;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.content h1{
+    color: rgb(0, 153, 255);
+    margin: 35px;
+}
+.content p{
+    line-height: 35px;
+    color: rgb(105, 105, 105);
+    padding: 0 250px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(250, 140, 0);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.diving{
+    background-image: url(images_files/bg-offers.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.diving div{
+    padding-top: 120px;
+    width: 90%;
+    margin: 0 auto;
+}
+.diving img{
+    width: 600px;
+    margin: 25px;
+    justify-content: center;
+}
+.diving ul li{
+    padding: 0;
+
+}
+
+.section1{
+    background-color: rgb(0, 153, 255);
+    margin-top: 30px;
+}
+.section1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.section1 ul{
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0 100px;
+    padding-left: 0;
+    color: white;
+    text-align: center;
+}
+ul li img{
+    width: 50%;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+.friendly{
+    width: 80px;
+}
+ul li p{
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.egypt{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.egypt h1{
+    color: rgb(0, 153, 255);
+    margin: 35px;
+}
+.egypt p{
+    line-height: 35px;
+    color: rgb(105, 105, 105);
+    padding: 0 250px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.egypt a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(250, 140, 0);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.footer h3{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.footer ul li{
+    display: flex;
+    margin: 0 25px;
+    padding: 15px 0;
+    background-color: #212121;
+    border-radius: 8px;
+}
+ul li a img {
+    padding: 0px;
+    margin: 0px;
+}
+.facebook:hover{
+    background-color: rgb(20, 32, 163) ;
+}
+.whatsapp:hover{
+    background-color: rgb(57, 192, 82) ;  
+}
+.twitter:hover{
+    background-color: rgb(47, 134, 255) ;  
+}
